@@ -11,6 +11,10 @@ body {
 }
 
 /* Navbar */
+.nav-items a {
+  text-decoration: none;
+  color: white;
+}
 .navbar {
   background: #343434;
   display: flex;
