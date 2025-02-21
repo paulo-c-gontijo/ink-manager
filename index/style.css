@@ -1,0 +1,98 @@
+/* Importação da Fonte */
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #343434, #141414);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+  background: #343434;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  background: #f49c14;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+.nav-items li {
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.nav-items li:hover {
+  color: #f49c14;
+  background: #646464;
+}
+
+/* Conteúdo Principal */
+.main-content {
+  text-align: left;
+  padding: 100px 80px;
+  flex: 1;
+}
+
+.main-content h2 {
+  font-size: 50px;
+  color: #646464;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 22px;
+  color: #646464;
+  max-width: 600px;
+  line-height: 1.6;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+/* Rodapé */
+.footer {
+  background: #343434;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  margin-top: auto;
+}
+
+.footer-items {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+.footer-items li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-items li:hover {
+  color: #f49c14;
+}
